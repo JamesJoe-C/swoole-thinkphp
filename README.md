@@ -8,9 +8,10 @@ swoole版本要求高于1.9。
 
 nginx反向代理配置：
 
+<pre>
 location / {
     if (!-e $request_filename){
         proxy_pass http://127.0.0.1:9501;
     }
 }
-
+</pre>
