@@ -6,6 +6,8 @@ swoole版本要求高于1.9。
 
 用swoole模拟php-fpm运行thinkphp，缺点是每次运行过后释放work进程，浪费系统资源，优点是没有对thinkphp本身做任何破坏性修改。
 
+该修改主要作用为rpc调用，在基于thinkphp开发的系统重构过程中，进行rpc模块化切分重构是相对比较轻松的重构方式。
+
 nginx反向代理配置：
 
 <pre>
