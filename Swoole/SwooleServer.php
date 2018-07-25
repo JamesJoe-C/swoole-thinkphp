@@ -124,7 +124,7 @@ class SwooleServer
         // 定义应用目录
         define('APP_PATH', SWOOLE_PATH.DIRECTORY_SEPARATOR.'Application'.DIRECTORY_SEPARATOR);
         // 定义应用模式
-        define('APP_MODE', 'cli');
+        //define('APP_MODE', 'cli');
 
         // 引入ThinkPHP入口文件
         require_once SWOOLE_PATH.DIRECTORY_SEPARATOR.'ThinkPHP'.DIRECTORY_SEPARATOR.'ThinkPHP.php';
